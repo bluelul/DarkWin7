@@ -1,0 +1,26 @@
+
+
+
+__________To remove blue gadient on "Perfomance Information And Tools_____________
+
+
+
+
+Extract these the file . and browse to location 
+
+ "drive:\windows\System32\PerfCenterCPL.dll" 
+
+1.Take Ownership of these the file.
+
+2.Rename those the file to 'PerfCenterCPL.BAK'.
+
+3.Now Copy the extracted file to "drive:\windows\System32\" .
+
+4.Restart to make changes.
+
+
+
+
+
+
+_________ 64 bit system install (32bit.dll inside SysWOW64 folder) and (64bit.dll inside System32 folder)_______________

@@ -1,0 +1,250 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator]
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions]
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\acm]
+"Description"="Codec"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\ax]
+"Description"="Codec"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\bpl]
+"Description"="Borland Package"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\cnv]
+"Description"="Converter"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\com]
+"Description"="Executable"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\cpl]
+"Description"="Control Panel"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\dcr]
+"Description"="Delphi Component Resource"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\dll]
+"Description"="Dynamic Link Library"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\dpl]
+"Description"="Borland Package"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\drv]
+"Description"="Driver"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\exe]
+"Description"="Executable"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\flt]
+"Description"="Graphics import filter"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\ocx]
+"Description"="Active X"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\rc]
+"Description"="Resource Script"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\res]
+"Description"="Resource File"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\scr]
+"Description"="Screen Saver"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\sys]
+"Description"="Driver"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\tlb]
+"Description"="Active X"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\tsp]
+"Description"="Driver"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Extensions\wpc]
+"Description"="Converter"
+"Associated"=dword:00000000
+"Contextmenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Registration]
+"Name"="Green - Hacker"
+"Password"="SJmZNyyMm-DrQ2JsvnO1nCmlx6vo8RB7HDj6BSF5rkX1I8h8dd0L+CAJIknSP-WRh2Hrl39qHEkABXbNC-YKytamLslZvFIWnXC1gWQXgC9e0MF8IfVdxo0fAkai9LA3q0TZhPpiYQBLsIbrJP6qJ8LCd7Aeefjuhb8GRrkJ2pQ"
+"Type"="Regular"
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator]
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\Bookmarks]
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\Current]
+"FirstTime"="0"
+"ResViewTool"="0"
+"FileBrowserTool"="0"
+"LastSearchString"="left"
+"ResTreeWidth"=dword:000000d2
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\DelayedMove]
+"State"=dword:00000000
+"Top"=dword:00000138
+"Left"=dword:000003bf
+"Height"=dword:000001ac
+"Width"=dword:0000020e
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\ErrorWindow]
+"Top"=dword:00000205
+"Left"=dword:0000034f
+"Height"=dword:0000011b
+"Width"=dword:0000015c
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\FileBrowser]
+"State"=dword:00000000
+"Top"=dword:0000015a
+"Left"=dword:00000255
+"Height"=dword:00000140
+"Width"=dword:000001e7
+"Style"=dword:00000000
+"ViewStyle"=dword:00000003
+"ReverseSort"="0"
+"ShowHiddenFiles"="1"
+"AutoArrange"="0"
+"w01"=dword:0000008c
+"w02"=dword:0000003c
+"w03"=dword:00000082
+"w04"=dword:0000006e
+"w05"=dword:00000032
+"DisplayMode"=dword:00000000
+"LastPIDL"=hex:14,00,1f,50,e0,4f,d0,20,ea,3a,69,10,a2,d8,08,00,2b,30,30,9d,19,\
+  00,2f,43,3a,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,74,\
+  00,31,00,00,00,00,00,6b,3b,6c,7c,11,00,55,73,65,72,73,00,60,00,08,00,04,00,\
+  ef,be,ee,3a,85,1a,6b,3b,6c,7c,2a,00,00,00,e3,01,00,00,00,00,01,00,00,00,00,\
+  00,00,00,00,00,36,00,00,00,00,00,55,00,73,00,65,00,72,00,73,00,00,00,40,00,\
+  73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,\
+  00,32,00,31,00,38,00,31,00,33,00,00,00,14,00,46,00,31,00,00,00,00,00,76,3b,\
+  17,0b,10,00,4e,65,6f,00,34,00,08,00,04,00,ef,be,6b,3b,6c,7c,76,3b,17,0b,2a,\
+  00,00,00,ee,01,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  4e,00,65,00,6f,00,00,00,12,00,7a,00,31,00,00,00,00,00,76,3b,74,8f,11,00,44,\
+  65,73,6b,74,6f,70,00,64,00,08,00,04,00,ef,be,6b,3b,6c,7c,76,3b,74,8f,2a,00,\
+  00,00,08,02,00,00,00,00,02,00,00,00,00,00,00,00,00,00,3a,00,00,00,00,00,44,\
+  00,65,00,73,00,6b,00,74,00,6f,00,70,00,00,00,40,00,73,00,68,00,65,00,6c,00,\
+  6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,31,00,37,00,36,\
+  00,39,00,00,00,16,00,00,00
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\FindDialog]
+"Top"=dword:0000017a
+"Left"=dword:000002f4
+"TypeIndex"=dword:00000004
+"StdTypeIndex"=dword:00000000
+"DataTypeIndex"=dword:00000000
+"FileTypeIndex"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\FindDialog\ResNames]
+"0"="border"
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\FindDialog\ResTypes]
+"0"="border"
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\FindDialog\SearchPaths]
+"0"="D:\\Softwares\\Desktop Tools\\Restorator\\App"
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\LastFoundFiles]
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\Main]
+"State"=dword:00000000
+"Top"=dword:00000105
+"Left"=dword:0000035b
+"Height"=dword:00000232
+"Width"=dword:000002ae
+"ShowSingleIcons"="0"
+"ShowSingleStrings"="1"
+"Tooltips"="1"
+"GenericControl"="0"
+"MaxMRU"=dword:0000000a
+"MaxMRUFind"=dword:00000014
+"MakeBackups"="1"
+"AllowMultipleInstances"="1"
+"MarkModifiedResources"="1"
+"ConvertAccelerators"="1"
+"ConvertDelphiAnsi"="1"
+"SaveDelphiFormsInAnsi"="0"
+"ShowSplash"="1"
+"RCIncludeDirs"=""
+"LastAssignResourceDir"="C:\\Users\\Neo\\Desktop"
+"LastExtractResourceDir"="C:\\Users\\Neo\\AppData\\Local\\Temp\\RstTemp\\Bitmap"
+"StayOnTop"="0"
+"AskForExtractAssignFolders"="1"
+"Codepage"=dword:0000ffff
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\MRUList]
+"File0"="C:\\Users\\Morph\\Desktop\\Leo's Revenge Aero\\System Files\\x86\\ExplorerFrame.dll"
+"File1"="C:\\Users\\Morph\\Desktop\\Frost\\System files\\x86\\ExplorerFrame.dll"
+"File2"="C:\\Users\\Morph\\Desktop\\Frost\\System files\\x86\\explorer.exe"
+"File3"="C:\\Users\\Morph\\Desktop\\explorer.exe"
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\PropertyForm]
+"Top"=dword:000001d5
+"Left"=dword:00000351
+
+[HKEY_CURRENT_USER\Software\Bomers\Restorator\Restorator\ResViewer]
+"State"=dword:00000000
+"Top"=dword:000000e0
+"Left"=dword:000001d0
+"Height"=dword:00000235
+"Width"=dword:000002f1
+"Style"=dword:00000000
+"Wrap-long-lines"="0"
+"Autosize"="1"
+"ShowOffset"="0"
+"TextViewMode"=dword:00000000
+"EditorFont"="Courier New"
+"EditorFontSize"=dword:0000000a
+"EditorFontCharset"=dword:00000001
+"HexdumpFont"="Lucida Console"
+"HexdumpFontSize"=dword:00000008
+"HexdumpFontCharset"=dword:00000001
+"WidthItemCol0"=dword:00000064
+"WidthItemCol1"=dword:00000032
+"WidthItemCol2"=dword:00000046
+"WidthItemCol3"=dword:000000c8
+"WidthItemCol4"=dword:00000046
+"WidthDirCol0"=dword:00000064
+"WidthDirCol1"=dword:00000032
+"WidthDirCol2"=dword:00000046
+"WidthVersionCol0"=dword:00000082
+"WidthVersionCol1"=dword:000000fa

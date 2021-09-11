@@ -1,0 +1,58 @@
+<duixml>
+<stylesheets>
+<style resid="dialogStyle">
+<element accessible="true" background="argb(0,0,0,0)" font="gtf(TaskDialogStyle,4,0)" foreground="gtc(TaskDialogStyle,4,0,3803)"/>
+<edit accessible="true" accRole="text"/>
+<button accessible="true" accRole="pushbutton" font="gtf(TaskDialogStyle,4,0)" foreground="gtc(TaskDialogStyle,4,0,3803)"/>
+<combobox accessible="true" font="gtf(TaskDialogStyle,4,0)" foreground="gtc(TaskDialogStyle,4,0,3803)" transparent="true"/>
+<ccsyslink font="gtf(TaskDialogStyle,4,0)" foreground="gtc(TaskDialogStyle,4,0,3803)" accessible="true" accrole="link" contentalign="wrapleft"/>
+<CCCommandLink accessible="true" accrole="pushbutton" transparent="true"/>
+<CCProgressBar accessible="true" transparent="true"/>
+<if class="dialog_background">
+<element accessible="true" background="themeable(dtb(TaskDialog,1,0), threedface)"/>
+</if>
+<if class="dialogBoldText">
+<element accessible="true" font="gtf(TextStyle,3,0)" foreground="gtc(TextStyle,3,0,3803)"/>
+</if>
+<if class="dlg_content_link">
+<Button accessible="true" accRole="link" accdefaction="click" contentalign="wrapleft | noprefix" foreground="gtc(CONTROLPANELSTYLE,10,1,3803)" font="gtf(CONTROLPANELSTYLE,10,1)" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="wrapleft | noprefix | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+</if>
+<if mousefocused="true">
+<Button cursor="hand" foreground="gtc(CONTROLPANELSTYLE,10,2,3803)" font="gtf(CONTROLPANELSTYLE,10,2)"/>
+</if>
+</if>
+<if class="dlg_tabstop_text">
+<button accessible="true" accrole="text" contentalign="wrapleft | noprefix" font="gtf(TaskDialogStyle,4,0)" foreground="gtc(TaskDialogStyle,4,0,3803)" overhang="false"/>
+<if keyfocused="true">
+<button contentalign="wrapleft | noprefix | focusrect"/>
+</if>
+</if>
+</style>
+<style resid="ScrollParts">
+<if class="ScrollViewer">
+<CCHScrollBar layoutpos="ninebottom" accessible="true"/>
+<CCVScrollBar layoutpos="nineright" accessible="true"/>
+<viewer layoutpos="nineclient"/>
+</if>
+</style>
+</stylesheets>
+<element resid="auOptIn" layout="borderlayout()" sheet="dialogStyle" class="dialog_background" accrole="client">
+<auOptIn layoutpos="top" width="460rp" layout="borderlayout()">
+<element layoutpos="top" layout="flowlayout()" contentalign="wrapleft | noprefix" accessible="false">
+<CCSysLink active="inactive" accrole="statictext" content="resstr(1177)"/>
+</element>
+<element layoutpos="top" layout="flowlayout()" margin="rect(0,5rp,0,0)" accessible="false">
+<button id="atom(linkFaq)" class="dlg_content_link" active="mouse | keyboard" content="resstr(1218)"/>
+</element>
+<element layoutpos="top" layout="borderlayout()" contentalign="wrapleft | noprefix" padding="rect(0,12rp,0,0)" class="dialog_background" accessible="false">
+<CCCommandLink id="atom(optInCommandLink)" layoutpos="top" active="mouse | keyboard" content="resstr(1178)" note="resstr(1205)"/>
+<CCCommandLink id="atom(letMeChooseCommandLink)" layoutpos="top" active="mouse | keyboard" content="resstr(1162)" note="resstr(1163)"/>
+</element>
+</auOptIn>
+</element>
+</duixml>

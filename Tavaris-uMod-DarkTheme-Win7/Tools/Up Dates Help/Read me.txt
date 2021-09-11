@@ -1,0 +1,11 @@
+
+
+
+
+
+
+___________If u have to up date any .DLL file use "Restorator" and change resourses : bit map folder, png folder, icons, etc etc.
+
+_____________This way u will keep Tavaris .DLL files up to date all the time an easy way.
+
+_______________If u need any help just ask at DevianART or google. 

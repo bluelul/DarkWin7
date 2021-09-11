@@ -1,0 +1,5 @@
+
+
+Copy the "Tavaris" theme file and folder to the directory : Themes\" 
+
+And the basic theme file to 'drive:\Windows\Resources\ Ease of Access Themes'

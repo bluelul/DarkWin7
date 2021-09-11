@@ -1,0 +1,1295 @@
+<duixml>
+<stylesheets>
+<style resid="wuappstyle">
+<element background="argb(0,0,0,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" font="gtf(CONTROLPANELSTYLE,6,0)"/>
+<edit accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)"/>
+<PText accessible="true" accrole="statictext" background="argb(0,0,0,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" font="gtf(CONTROLPANELSTYLE,6,0)"/>
+<CCSysLink accessible="true" transparent="true" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" font="gtf(CONTROLPANELSTYLE,6,0)"/>
+<CCListView accessible="true" bordercolor="gtc(CONTROLPANELSTYLE,17,0,3821)"/>
+<CCPushButton accessible="true"/>
+<CCRadioButton accessible="true" transparent="true" margin="rect(0,0,0,4rp)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" font="gtf(CONTROLPANELSTYLE,6,0)" background="themeable(dtb(CONTROLPANEL,2,0),window)" shortcut="auto"/>
+<CCProgressBar accessible="true" transparent="true"/>
+<if keyfocused="true">
+<CCRadioButton contentalign="wrapleft | focusrect"/>
+</if>
+<if class="red_gradient">
+<element background="gradient(rgb(251,130,129),gtc(CONTROLPANELSTYLE,2,0,3821),0)"/>
+</if>
+<if class="yellow_gradient">
+<element background="gradient(rgb(252,236,100),gtc(CONTROLPANELSTYLE,2,0,3821),0)"/>
+</if>
+<if class="green_gradient">
+<element background="gradient(rgb(175,233,176),gtc(CONTROLPANELSTYLE,2,0,3821),0)"/>
+</if>
+<if class="blue_gradient">
+<element background="gradient(rgb(26, 26, 26),gtc(CONTROLPANELSTYLE,2,0,3821),0)"/>
+</if>
+<if class="blue_gradient_vertical">
+<element background="gradient(gtc(CONTROLPANELSTYLE,2,0,3821),rgb(26, 26, 26),1)" bordercolor="gtc(CONTROLPANELSTYLE,17,0,3821)"/>
+</if>
+<if class="light_blue_gradient_vertical">
+<element background="gradient(gtc(CONTROLPANELSTYLE,2,0,3821),rgb(26, 26, 26),1)" bordercolor="gtc(CONTROLPANELSTYLE,17,0,3821)"/>
+</if>
+<if class="security_box_gradient_red">
+<element background="gradient(RGB(172,1,0),RGB(222,1,0),1)" minsize="size(20rp,20rp)"/>
+</if>
+<if class="security_box_gradient_yellow">
+<element background="gradient(RGB(242,177,0),RGB(255,206,73),1)" minsize="size(20rp,20rp)"/>
+</if>
+<if class="security_box_gradient_green">
+<element background="gradient(RGB(22,118,20),RGB(66,179,62),1)" minsize="size(20rp,20rp)"/>
+</if>
+<if class="security_box_gradient_blue">
+<element background="gradient(RGB(7,63,110),RGB(20,120,153),1)" minsize="size(20rp,20rp)"/>
+</if>
+<if class="security_box_gradient_grey">
+<element background="gradient(RGB(133,143,157),RGB(166,172,179),1)" minsize="size(20rp,20rp)"/>
+</if>
+<if class="yellow_banner">
+<element background="themeable(dtb(CONTROLPANEL,18,0),window)" borderthickness="rect(1rp,1rp,1rp,1rp)" bordercolor="themeable(gtc(ScrollBarStyle, 2, 0, 3821),buttonshadow)"/>
+</if>
+<if class="wuapp_category_tab_area">
+<element background="themeable(gtc(CONTROLPANELSTYLE,2,0,3821),window)"/>
+</if>
+<if class="wuapp_category_tab_spacer">
+<element bordercolor="themeable(gtc(CONTROLPANELSTYLE,17,0,3821),buttonshadow)" borderthickness="rect(0,0,1rp,0)"/>
+</if>
+<if class="wuapp_selected_category_tab">
+<element background="graphic(30,5,-1,0,0,1,1,library(wucltux.dll))" borderthickness="rect(5rp,5rp,2rp,6rp)"/>
+<Button background="argb(0,0,0,0)" borderthickness="rect(0,0,0,0)" padding="rect(2rp,0,0,0)" accessible="true" accRole="link" accdefaction="click" contentalign="middleleft | noprefix" font="gtf(TextStyle, 3, 0)" foreground="black" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="middleleft | noprefix | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+</if>
+</if>
+<if class="wuapp_unselected_category_tab">
+<element background="graphic(31,5,-1,0,0,1,1,library(wucltux.dll))" borderthickness="rect(5rp,5rp,2rp,6rp)"/>
+<Button background="argb(0,0,0,0)" borderthickness="rect(0,0,0,0)" padding="rect(2rp,0,0,0)" accessible="true" accRole="link" accdefaction="click" contentalign="middleleft | noprefix" font="gtf(TextStyle, 3, 0)" foreground="black" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="middleleft | noprefix | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+</if>
+<if mousefocused="true">
+<Button cursor="hand"/>
+</if>
+</if>
+<if class="wuapp_blue_plate">
+<element background="graphic(32,7,-1,0,0,1,1,library(wucltux.dll))" borderthickness="rect(6,6,13,13)"/>
+</if>
+<if class="wuapp_blue_plate_interior">
+<element background="argb(0,0,0,0)" padding="rect(6rp,3rp,13rp,10rp)"/>
+/&gt;
+</if>
+<if class="wuapp_blue_plate_section">
+<element background="argb(0,0,0,0)" padding="rect(0,3rp,0,3rp)"/>
+/&gt;
+</if>
+<if class="wuapp_blue_plate_text">
+<element font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="black" background="argb(0,0,0,0)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+</if>
+<if class="line_color_fill_area">
+<element background="themeable(gtc(ScrollBarStyle, 2, 0, 3821),buttonshadow)"/>
+</if>
+<if class="yellow_banner_inner">
+<element layoutpos="client"/>
+</if>
+<if class="red_gradient_hc">
+<element background="window"/>
+</if>
+<if class="yellow_gradient_hc">
+<element background="window"/>
+</if>
+<if class="green_gradient_hc">
+<element background="window"/>
+</if>
+<if class="blue_gradient_hc">
+<element background="window"/>
+</if>
+<if class="blue_gradient_vertical_hc">
+<element background="window"/>
+</if>
+<if class="light_blue_gradient_vertical_hc">
+<element background="window"/>
+</if>
+<if class="wuapp_category_tab_area_hc">
+<element background="window"/>
+</if>
+<if class="wuapp_selected_category_tab_hc">
+<element background="window" borderthickness="rect(1rp,1rp,0,1rp)" bordercolor="buttonshadow"/>
+<Button borderthickness="rect(0,0,0,0)" padding="rect(5rp,2rp,5rp,2rp)" accessible="true" accRole="link" accdefaction="click" contentalign="middleleft | noprefix" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="middleleft | noprefix | focusrect"/>
+</if>
+</if>
+<if class="wuapp_unselected_category_tab_hc">
+<element background="window" borderthickness="rect(0rp,0rp,1rp,0rp)" padding="rect(0,1rp,0,1rp)" bordercolor="buttonshadow"/>
+<Button borderthickness="rect(0,0,0,0)" padding="rect(5rp,2rp,5rp,2rp)" accessible="true" accRole="link" accdefaction="click" contentalign="middleleft | noprefix" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="middleleft | noprefix | focusrect"/>
+</if>
+<if mousefocused="true">
+<Button cursor="hand"/>
+</if>
+</if>
+<if class="wuapp_blue_plate_hc">
+<element background="window" borderthickness="rect(1rp,1rp,1rp,1rp)" bordercolor="buttonshadow"/>
+</if>
+<if class="wuapp_blue_plate_interior_hc">
+<element background="window" padding="rect(6rp,3rp,6rp,3rp)"/>
+</if>
+<if class="wuapp_blue_plate_section_hc">
+<element background="window" padding="rect(0,3rp,0,3rp)"/>
+/&gt;
+</if>
+<if class="wuapp_blue_plate_text_hc">
+<element font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="window" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+</if>
+<if class="moduleborder1">
+<element borderthickness="rect(1rp,1rp,1rp,1rp)" bordercolor="themeable(RGB(204,204,204),buttonshadow)"/>
+</if>
+<if class="moduleborder2">
+<element borderthickness="rect(1rp,0,1rp,1rp)" bordercolor="themeable(gtc(ScrollBarStyle, 2, 0, 3821),buttonshadow)" padding="rect(5rp,11rp,9rp,9rp)"/>
+</if>
+<if class="moduleinner1">
+<element layoutpos="client" padding="rect(3rp,3rp,3rp,6rp)"/>
+</if>
+<if class="wuapp_module_instruction">
+<PText contentalign="wrapleft" font="gtf(CONTROLPANELSTYLE,5,0)" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)"/>
+<element accessible="true" accrole="statictext" contentalign="wrapleft" font="gtf(CONTROLPANELSTYLE,5,0)" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)"/>
+</if>
+<if class="wuapp_singleline_text">
+<PText accessible="true" accRole="statictext" contentalign="topleft | endellipsis"/>
+<element foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" contentalign="topleft | endellipsis" overhang="false" accessible="true" accRole="statictext"/>
+<CCSysLink contentalign="topleft | endellipsis"/>
+</if>
+<if class="wuapp_multiline_text">
+<PText accessible="true" accRole="statictext" contentalign="wrapleft"/>
+<element foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" contentalign="wrapleft" overhang="false" accessible="true" accRole="statictext"/>
+<CCSysLink contentalign="wrapleft"/>
+</if>
+<if class="wuapp_multiline_title">
+<PText accessible="true" accRole="statictext" contentalign="wrapleft"/>
+<element font="gtf(CONTROLPANELSTYLE,5,0)" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)" contentalign="wrapleft" overhang="false" accessible="true" accRole="statictext"/>
+<CCSysLink contentalign="wrapleft"/>
+</if>
+<if class="wuapp_content_label">
+<PText contentalign="wrapleft" shortcut="auto"/>
+<element accessible="true" accrole="statictext" contentalign="wrapleft" shortcut="auto"/>
+<CCSysLink contentalign="wrapleft" shortcut="auto"/>
+</if>
+<if class="wuapp_align_radiobutton">
+<element width="sysmetric(71)" height="sysmetric(72)" visible="false"/>
+</if>
+<if class="wuapp_button_wrapper">
+<element background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+</if>
+<if class="wuapp_module_img">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="48rp"/>
+<viewer margin="rect(0,0,4rp,0)" width="48rp"/>
+</if>
+<if class="wuapp_module_img_96">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="96rp"/>
+<viewer margin="rect(0,0,4rp,0)" width="96rp"/>
+</if>
+<if class="wuapp_module_img_24">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="24rp"/>
+<viewer margin="rect(0,0,4rp,0)" width="24rp"/>
+</if>
+<if class="wuapp_module_img_32">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="32rp"/>
+<viewer margin="rect(0,0,4rp,0)" width="32rp"/>
+</if>
+<if class="wuapp_module_img_16">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="16rp"/>
+<viewer margin="rect(0,0,4rp,0)" width="16rp"/>
+</if>
+<if class="wuapp_module_img_spacer">
+<element margin="rect(0,0,4rp,0)" width="48rp"/>
+</if>
+<if class="wuapp_banner_img">
+<element accessible="true" accrole="graphic" margin="rect(0,0,4rp,0)" width="16rp"/>
+<viewer margin="rect(0,0,4rp,0)"/>
+</if>
+<if class="wuapp_content_text">
+<Element font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+<PText contentalign="wrapleft"/>
+</if>
+<if class="wuapp_content_text_disabled">
+<element font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+<PText font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" contentalign="wrapleft"/>
+</if>
+<if class="wuapp_content_title">
+<element font="gtf(TextStyle, 3, 0)" foreground="gtc(TextStyle,3,0,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+<PText font="gtf(TextStyle, 3, 0)" foreground="gtc(TextStyle,3,0,3803)" contentalign="wrapleft"/>
+</if>
+<if class="wuapp_tabstop_text">
+<button accessible="true" accrole="statictext" contentalign="wrapleft | noprefix" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" overhang="false"/>
+<if keyfocused="true">
+<button contentalign="wrapleft | noprefix | focusrect"/>
+</if>
+</if>
+<if class="wuapp_line">
+<element background="inactivecaption" height="1rp" width="10000rp"/>
+</if>
+<if class="aupsp_sectionTitle">
+<element font="gtf(CONTROLPANELSTYLE,4,0)" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)" margin="rect(0,0,0,10rp)" accessible="true" accrole="statictext"/>
+</if>
+<if class="aupsp_line">
+<element background="inactivecaption" height="1rp" width="10000rp"/>
+</if>
+<if class="aupsp_subSectionTitle">
+<element font="gtf(CONTROLPANELSTYLE,4,0)" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)" margin="rect(0,0,0,5rp)" accessible="true" accrole="statictext"/>
+</if>
+<if class="aupsp_left_img">
+<element width="40rp" layoutpos="left" accessible="true" accrole="graphic"/>
+</if>
+<if class="aupsp_left_img_spacer">
+<element width="40rp" layoutpos="left"/>
+</if>
+<if class="aupsp_radiobutton_space">
+<element width="sysmetric(71)" height="sysmetric(72)" margin="rect(0,0,1rp,0)" layoutpos="left"/>
+</if>
+<if class="aupsp_auCheckBox">
+<CCCheckbox accessible="true" accrole="checkbutton" transparent="true" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" font="gtf(CONTROLPANELSTYLE,6,0)" background="themeable(dtb(CONTROLPANEL,2,0),window)" shortcut="auto"/>
+<if keyfocused="true">
+<CCCheckbox contentalign="wrapleft | focusrect"/>
+</if>
+</if>
+<if class="aupsp_auSection">
+<element borderthickness="rect(0,0,0,0)"/>
+</if>
+<if class="aupsp_auComboBox">
+<ComboBox accessible="true" accrole="combobox" transparent="true" margin="rect(0,3rp,0,10rp)" font="gtf(CONTROLPANELSTYLE,14,0)" background="themeable(dtb(CONTROLPANEL,2,0),window)" shortcut="auto"/>
+<if keyfocused="true">
+<ComboBox contentalign="wrapleft | focusrect"/>
+</if>
+</if>
+<if visible="false">
+<CCPushButton enabled="false"/>
+<CCRadioButton enabled="false"/>
+<PText enabled="false"/>
+<element enabled="false"/>
+<CCSysLink enabled="false"/>
+<CCCheckBox enabled="false"/>
+<ComboBox enabled="false"/>
+</if>
+</style>
+<style resid="wuappcommon">
+<if id="atom(title)">
+<element font="gtf(TEXTSTYLE, 1, 0)" foreground="gtc(TEXTSTYLE, 1, 0, 3803)" margin="rect(0,40rp,0,10rp)" layoutpos="top"/>
+</if>
+<if class="para">
+<element contentalign="wrapleft" margin="rect(0,10rp,0,10rp)"/>
+</if>
+<if class="step">
+<element contentalign="wrapleft" margin="rect(0,5rp,0,5rp)"/>
+</if>
+<edit themedborder="true" height="23rp" margin="rect(4rp,4rp,4rp,4rp)"/>
+<if class="option">
+<element margin="rect(0,10rp,0,10rp)"/>
+</if>
+<if class="task">
+<element font="gtf(TEXTSTYLE, 1, 0)"/>
+</if>
+<if id="atom(wizardroot)">
+<element background="themeable(dtb(AeroWizard, 3, 0), threedface)" font="gtf(AeroWizardStyle, 3, 0)"/>
+</if>
+<if id="atom(wiztitle)">
+<element layoutpos="none"/>
+</if>
+<if id="atom(wizsubtitle)">
+<element layoutpos="none"/>
+</if>
+<if id="atom(taskdialogroot)">
+<element background="themeable(dtb(TaskDialog, 1, 0), threedface)"/>
+</if>
+<if id="atom(instructions)">
+<element padding="themeable(gtmar(TaskDialog, 1, 0, 3602), rect(10rp,10rp,10rp,10rp))" font="gtf(TaskDialogStyle, 2, 0)" background="themeable(dtb(TaskDialog, 1, 0), threedface)" foreground="gtc(TaskDialogStyle, 2, 0, 3803)"/>
+</if>
+<if id="atom(buttonzone)">
+<element background="themeable(dtb(TaskDialog, 8, 0), threedface)" foreground="gtc(TaskDialogStyle, 4, 0, 3803)" font="gtf(TaskDialogStyle, 10, 0)" borderthickness="rect(3rp,5rp,3rp,0rp)"/>
+</if>
+<if id="atom(buttonpane)">
+<element padding="rect(20rp,10rp,20rp,10rp)"/>
+</if>
+<pushbutton background="dtb(button, 1, 1)" foreground="buttontext" contentalign="middlecenter" padding="rect(20rp,5rp,20rp,5rp)" margin="rect(10rp, 10rp, 10rp, 10rp)"/>
+<if keyfocused="true">
+<pushbutton contentalign="middlecenter | focusrect"/>
+</if>
+<if selected="true">
+<pushbutton background="dtb(button, 1, 5)"/>
+</if>
+<if mousefocused="true">
+<pushbutton background="dtb(button, 1, 2)"/>
+</if>
+<if pressed="true">
+<pushbutton background="dtb(button, 1, 3)" padding="rect(21rp,6rp,19rp,4rp)"/>
+</if>
+<if enabled="false">
+<pushbutton background="dtb(button, 1, 4)" foreground="graytext"/>
+</if>
+<if id="atom(CheckBox)">
+<button width="sysmetric(71)" height="sysmetric(72)" background="dtb(button, 3, 1)" accessible="true" accrole="checkbutton"/>
+<if mousefocused="true">
+<button background="dtb(button, 3, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 3, 3)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 3, 4)"/>
+</if>
+<if selected="true">
+<button background="dtb(button, 3, 5)"/>
+<if mousefocused="true">
+<button background="dtb(button, 3, 6)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 3, 7)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 3, 8)"/>
+</if>
+</if>
+<if class="mixed">
+<button background="dtb(button, 3, 9)"/>
+<if mousefocused="true">
+<button background="dtb(button, 3, 10)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 3, 11)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 3, 12)"/>
+</if> 
+</if> 
+</if> 
+<if class="CheckBox">
+<button width="sysmetric(71)" height="sysmetric(72)" background="dtb(button, 3, 1)" accessible="true" accrole="checkbutton"/>
+<if mousefocused="true">
+<button background="dtb(button, 3, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 3, 3)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 3, 4)"/>
+</if>
+<if selected="true">
+<button background="dtb(button, 3, 5)"/>
+<if mousefocused="true">
+<button background="dtb(button, 3, 6)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 3, 7)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 3, 8)"/>
+</if>
+</if>
+</if> 
+<if class="RadioButton">
+<button width="sysmetric(71)" height="sysmetric(72)" background="dtb(button, 2, 1)" accessible="true" accrole="radiobutton"/>
+<if mousefocused="true">
+<button background="dtb(button, 2, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 2, 3)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 2, 4)"/>
+</if>
+<if selected="true">
+<button background="dtb(button, 2, 5)"/>
+<if mousefocused="true">
+<button background="dtb(button, 2, 6)"/>
+</if>
+<if pressed="true">
+<button background="dtb(button, 2, 7)"/>
+</if>
+<if enabled="false">
+<button background="dtb(button, 2, 8)"/>
+</if>
+</if>
+</if>
+<if class="link">
+<accessiblebutton foreground="gtc(CONTROLPANELSTYLE,10,1,3803)" font="gtf(CONTROLPANELSTYLE,10,1)" overhang="false"/>
+<element accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,10,1,3803)" font="gtf(CONTROLPANELSTYLE,10,1)" overhang="false"/>
+<if keyfocused="true">
+<accessiblebutton contentalign="wrapleft | focusrect"/>
+<element contentalign="wrapleft | focusrect"/>
+</if>
+<if enabled="false">
+<accessiblebutton foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+<element foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+</if>
+<if mousefocused="true">
+<accessiblebutton cursor="hand" foreground="gtc(CONTROLPANELSTYLE,10,2,3803)" font="gtf(CONTROLPANELSTYLE,10,2)"/>
+<element cursor="hand" foreground="gtc(CONTROLPANELSTYLE,10,2,3803)" font="gtf(CONTROLPANELSTYLE,10,2)"/>
+</if>
+</if> 
+<if id="atom(clipped)">
+<element animation="rectanglev | s | fast"/>
+</if>
+<if id="atom(arrow)">
+<button width="sysmetric(2)" height="sysmetric(20)"/>
+<if selected="false">
+<button background="dtb(scrollbar, 1, 5)"/>
+<if mousefocused="true">
+<button background="dtb(scrollbar, 1, 6)"/>
+</if>
+<if pressed="true">
+<button background="dtb(scrollbar, 1, 7)"/>
+</if>
+</if>
+<if selected="true">
+<button background="dtb(scrollbar, 1, 1)"/>
+<if mousefocused="true">
+<button background="dtb(scrollbar, 1, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(scrollbar, 1, 3)"/>
+</if>
+</if>
+</if>
+<if id="atom(Thumb)">
+<thumb background="dtb(scrollbar, 3, 1)" content="dtb(scrollbar, 9, 1)" contentalign="middlecenter"/>
+<if mousefocused="true">
+<thumb background="dtb(scrollbar, 3, 2)" content="dtb(scrollbar, 9, 2)"/>
+</if>
+<if captured="true">
+<thumb background="dtb(scrollbar, 3, 3)" content="dtb(scrollbar, 9, 3)"/>
+</if>
+</if>
+<if id="atom(HThumb)">
+<thumb background="dtb(scrollbar, 2, 1)" content="dtb(scrollbar, 8, 1)" contentalign="middlecenter"/>
+<if mousefocused="true">
+<thumb background="dtb(scrollbar, 2, 2)" content="dtb(scrollbar, 8, 2)"/>
+</if>
+<if captured="true">
+<thumb background="dtb(scrollbar, 2, 3)" content="dtb(scrollbar, 8, 3)"/>
+</if>
+</if>
+<if class="Line">
+<repeatbutton width="sysmetric(2)" height="sysmetric(20)"/>
+</if>
+<if id="atom(lineup)">
+<repeatbutton background="dtb(scrollbar, 1, 1)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 1, 2)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 1, 3)"/>
+</if>
+</if>
+<if id="atom(linedown)">
+<repeatbutton background="dtb(scrollbar, 1, 5)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 1, 6)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 1, 7)"/>
+</if>
+</if>
+<if id="atom(lineleft)">
+<repeatbutton background="dtb(scrollbar, 1, 9)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 1, 10)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 1, 11)"/>
+</if>
+</if>
+<if id="atom(lineright)">
+<repeatbutton background="dtb(scrollbar, 1, 13)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 1, 14)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 1, 15)"/>
+</if>
+</if>
+<if id="atom(pageup)">
+<repeatbutton background="dtb(scrollbar, 7, 1)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 7, 2)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 7, 3)"/>
+</if>
+</if>
+<if id="atom(pagedown)">
+<repeatbutton background="dtb(scrollbar, 6, 1)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 6, 2)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 6, 3)"/>
+</if>
+</if>
+<if id="atom(pageleft)">
+<repeatbutton background="dtb(scrollbar, 5, 1)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 5, 2)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 5, 3)"/>
+</if>
+</if>
+<if id="atom(pageright)">
+<repeatbutton background="dtb(scrollbar, 4, 1)"/>
+<if mousefocused="true">
+<repeatbutton background="dtb(scrollbar, 4, 2)"/>
+</if>
+<if pressed="true">
+<repeatbutton background="dtb(scrollbar, 4, 3)"/>
+</if>
+</if>
+<if class="ScrollViewer">
+<CCHScrollBar layoutpos="ninebottom" accessible="true" accdesc="resstr(1251)" accname="resstr(1250)"/>
+<CCVScrollBar layoutpos="nineright" accessible="true" accdesc="resstr(1253)" accname="resstr(1252)"/>
+<viewer layoutpos="nineclient"/>
+</if>
+</style>
+<style resid="WUCommonNavPanelStyle">
+<if id="atom(NavPanel)">
+<Element background="themeable(dtb(ControlPanel,1,0),window)" width="200rp" padding="rect(0,9rp,0,0)" accessible="true" accName="CPNavPanel" accrole="pane"/>
+</if>
+<if id="atom(NavPanelWatermark)">
+<Element content="themeable(graphic(29,2,255,200rp,331rp,0,0,library(wucltux.dll)),'')" width="200rp" background="ARGB(0,0,0,0)" contentalign="bottomleft"/>
+</if>
+</style>
+<style resid="wu_cp_style">
+<Button accessible="true" contentalign="wrapleft"/>
+<Element overhang="false" background="argb(0,0,0,0)"/>
+<NavigateButton overhang="false" background="argb(0,0,0,0)"/>
+<CCPushButton transparent="true" accessible="true" minsize="size(76rp,23rp)" font="gtf(CONTROLPANELSTYLE,14,0)" margin="rect(6rp,0rp,0rp,0rp)"/>
+<CCCheckBox accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+<ComboBox transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,14,0)"/>
+<CCRadioButton accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+<CCSysLink transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0), window)"/>
+<Edit transparent="true" themedborder="true" width="120rp" accessible="true" accrole="text" height="20rp" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)"/>
+<if class="cp_topbox">
+<Element accessible="true" accrole="client" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+</if>
+<if class="cp_nav_pane"> 
+<Element width="200rp" background="themeable(dtb(CONTROLPANEL,1,0),window)" accessible="true" accrole="pane"/>
+</if>
+<if class="cp_nav_list"> 
+<Element padding="rect(0rp,0rp,0rp,7rp)"/>
+</if>
+<if class="cp_nav_task_box">
+<Element padding="rect(6rp,15rp,6rp,0rp)"/>
+</if>
+<if class="cp_nav_link_box">
+<Element padding="rect(6rp,0rp,6rp,0rp)"/>
+</if>
+<if class="cp_nav_row">
+<Element padding="rect(0rp,0rp,0rp,10rp)"/>
+<NavigateButton padding="rect(0rp,0rp,0rp,10rp)"/>
+</if>
+<if class="cp_nav_img">
+<Element accessible="true" accrole="graphic" margin="rect(0rp,0rp,6rp,0rp)" width="sysmetric(49)"/>
+<Button accessible="true" accrole="link" margin="rect(0rp,0rp,6rp,0rp)" cursor="hand" width="sysmetric(49)"/>
+</if>
+<if class="cp_nav_h_spacer">
+<Element margin="rect(0rp,0rp,6rp,0rp)" width="sysmetric(49)"/>
+</if>
+<if class="cp_nav_line">
+<Element height="1rp" background="themeable(dtb(CONTROLPANEL,16,0),buttonshadow)"/>
+</if>
+<if class="cp_nav_link">
+<Button accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,8,1,3803)" font="gtf(CONTROLPANELSTYLE,8,1)" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="wrapleft | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,8,4,3803)" font="gtf(CONTROLPANELSTYLE,8,4)"/>
+</if> 
+<if mousefocused="true">
+<Button cursor="hand" foreground="gtc(CONTROLPANELSTYLE,8,2,3803)" font="gtf(CONTROLPANELSTYLE,8,2)"/>
+</if>
+</if>
+<if class="cp_nav_label">
+<Element accessible="true" accrole="statictext" contentalign="wrapleft" foreground="gtc(CONTROLPANELSTYLE,3,0,3803)" font="gtf(CONTROLPANELSTYLE, 3, 0)"/>
+</if>
+<if class="cp_hub_frame">
+<Element padding="rect(13rp,1rp,1rp,10rp)"/>
+</if>
+<if class="cp_spoke_frame">
+<Element padding="rect(0rp,19rp,0rp,10rp)"/>
+</if>
+<if class="cp_help_glyph">
+<Button height="18rp" width="18rp" content="icon(99,sysmetric(49),sysmetric(50),library(imageres.dll))" padding="rect(1rp,1rp,1rp,1rp)" cursor="hand" accRole="link" accdefaction="click" tooltip="true"/>
+<if keyfocused="true">
+<Button contentalign="focusrect"/>
+</if>
+</if>
+<if class="cp_content_pane">
+<Element width="600rp" padding="rect(10rp,0rp,10rp,0rp)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+</if>
+<if class="wuapp_content_pane">
+<Element width="600rp" padding="rect(26rp,0rp,26rp,0rp)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+</if>
+<if class="cp_content_instruction">
+<Element contentalign="wrapleft" foreground="gtc(CONTROLPANELSTYLE,5,0,3803)" font="gtf(CONTROLPANELSTYLE, 5, 0)" accessible="true" accRole="statictext"/>
+</if>
+<if class="cp_content_v_spacer">
+<Element height="7rp"/>
+</if>
+<if class="cp_content_text">
+<Element font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+<PText font="gtf(CONTROLPANELSTYLE, 6, 0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+</if>
+<if class="cp_content_title_text">
+<Element font="gtf(CONTROLPANELSTYLE, 19, 0)" foreground="gtc(CONTROLPANELSTYLE,19,0,3803)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+</if>
+<if class="cp_help_link">
+<Button accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,7,1,3803)" font="gtf(CONTROLPANELSTYLE,7,1)" overhang="false"/>
+<Element accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,7,1,3803)" font="gtf(CONTROLPANELSTYLE,7,1)" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="wrapleft | focusrect"/>
+<Element contentalign="wrapleft | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,7,4,3803)" font="gtf(CONTROLPANELSTYLE,7,4)"/>
+<Element foreground="gtc(CONTROLPANELSTYLE,7,4,3803)" font="gtf(CONTROLPANELSTYLE,7,4)"/>
+</if>
+<if mousefocused="true">
+<Button cursor="hand" foreground="gtc(CONTROLPANELSTYLE,7,2,3803)" font="gtf(CONTROLPANELSTYLE,7,2)"/>
+<Element cursor="hand" foreground="gtc(CONTROLPANELSTYLE,7,2,3803)" font="gtf(CONTROLPANELSTYLE,7,2)"/>
+</if>
+</if>
+<if class="cp_content_link">
+<Button accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,10,1,3803)" font="gtf(CONTROLPANELSTYLE,10,1)" overhang="false"/>
+<Element accessible="true" accRole="link" accdefaction="click" foreground="gtc(CONTROLPANELSTYLE,10,1,3803)" font="gtf(CONTROLPANELSTYLE,10,1)" overhang="false"/>
+<if keyfocused="true">
+<Button contentalign="wrapleft | focusrect"/>
+<Element contentalign="wrapleft | focusrect"/>
+</if>
+<if enabled="false">
+<Button foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+<Element foreground="gtc(CONTROLPANELSTYLE,10,4,3803)" font="gtf(CONTROLPANELSTYLE,10,4)"/>
+</if>
+<if mousefocused="true">
+<Button cursor="hand" foreground="gtc(CONTROLPANELSTYLE,10,2,3803)" font="gtf(CONTROLPANELSTYLE,10,2)"/>
+<Element cursor="hand" foreground="gtc(CONTROLPANELSTYLE,10,2,3803)" font="gtf(CONTROLPANELSTYLE,10,2)"/>
+</if>
+</if> 
+<if class="cp_content_divider_header">
+<Element background="themeable(dtb(CONTROLPANEL,2,0),window)" foreground="gtc(CONTROLPANELSTYLE,9,0,3803)" font="gtf(CONTROLPANELSTYLE, 9, 0)" padding="rect(0rp,0rp,2rp,0rp)" contentalign="wrapleft" accessible="true" accRole="statictext"/>
+</if>
+<if class="cp_content_divider_line">
+<Element height="1rp" width="565rp" background="themeable(dtb(CONTROLPANEL,17,0),buttonshadow)"/>
+</if>
+<if class="cp_content_banner_box">
+<Element padding="rect(7rp,7rp,7rp,7rp)" background="themeable(dtb(CONTROLPANEL,18,0),window)" borderthickness="rect(1rp,1rp,1rp,1rp)" bordercolor="gtc(CONTROLPANELSTYLE,17,0,3821)"/>
+</if>
+<if class="cp_command_sink">
+<Element layoutpos="bottom" background="themeable(dtb(CONTROLPANEL,12,0),window)"/>
+</if>
+<if class="cp_command_float">
+<Element layoutpos="top" background="themeable(dtb(CONTROLPANEL,13,0),window)"/>
+</if>
+<if class="cp_command_button_box">
+<Element padding="rect(0rp,10rp,10rp,10rp)" width="600rp"/> 
+</if>
+</style>
+</stylesheets>
+<element resid="main" sheet="wu_cp_style" layout="borderlayout()">
+<WUAppPage id="atom(toplevel)" layout="borderlayout()" layoutpos="client">
+<element class="cp_topbox" layout="borderlayout()" layoutpos="client">
+<scrollviewer sheet="wuappcommon" xscrollable="false" layoutpos="client">
+<element sheet="wu_cp_style" class="cp_hub_frame" layout="borderlayout()">
+<element layoutpos="top" layout="borderlayout()">
+<viewer layoutpos="right">
+<Button id="atom(actionHelpUpdateComputer)" class="cp_help_glyph" active="mouse" tooltip="true" accname="resstr(1224)" accdesc="resstr(1204)" content="icon(99,16rp,16rp,library(imageres.dll))"/>
+</viewer>
+</element>
+<element sheet="wu_cp_style" class="cp_hub_frame" layoutpos="top" layout="flowlayout()">
+<element class="wuapp_content_pane" layoutpos="top" layout="borderlayout()">
+<element layoutpos="top" layout="filllayout()" margin="rect(0,0,0,10rp)">
+<element layout="flowlayout()">
+<element id="atom(windowsUpdateTitle)" class="cp_content_instruction" content="resstr(1131)"/>
+<element id="atom(windowsUpdateTitleExtras)" class="cp_content_instruction" content="resstr(1193)"/>
+</element>
+</element>
+<element layoutpos="top" class="cp_content_v_spacer"/>
+<element id="atom(groupPolicyBanner)" layoutpos="top" layout="borderlayout()" sheet="wuappstyle" class="yellow_banner">
+<element class="yellow_banner_inner" layoutpos="top" layout="flowlayout(0,2,0,2)" padding="rect(4rp,4rp,5rp,4rp)">
+<viewer class="wuapp_banner_img">
+<element class="wuapp_banner_img" content="icon(81,16rp,16rp,library(imageres.dll))"/>
+</viewer>
+<element sheet="wu_cp_style" layout="flowlayout(1)">
+<element class="cp_content_text" content="resstr(1174)"/>
+<Button id="atom(actionHelpGroupPolicy)" class="cp_content_link" active="mouse | keyboard" content="resstr(1175)"/>
+</element>
+</element>
+</element>
+<element id="atom(moduleUpdatesAvailable)" sheet="wuappstyle" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+<viewer id="atom(elementGreenModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(1,48rp,48rp)"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element id="atom(elementModuleHeaderText)" class="wuapp_module_instruction" content="#elementModuleHeaderText#"/>
+</element>
+<element id="atom(updateSummaryMainTable)" layoutpos="top" layout="tablelayout(0,0, 3,0,-45, 3,3,1, 3,0,-55)" contentalign="bottomleft">
+<element id="atom(updateSummaryLinkColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(0,10rp,6rp,0)">
+<element id="atom(updateSummaryImportantLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallImportant)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallImportantText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallImportantText#"/>
+</NavigateButton>
+</element>
+<element id="atom(updateSummaryOptionalLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallOptional)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallOptionalText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallOptionalText#"/>
+</NavigateButton>
+</element>
+</element> 
+<element id="atom(updateSummaryLineColumn)" width="1rp" class="line_color_fill_area"/>
+<element id="atom(updateSummarySelectionContentsColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(12rp,10rp,0,0)">
+<element id="atom(updateSummaryImportantSelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,12rp,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<PText id="atom(updateSummaryImportantText)" class="wuapp_content_title" content="%updateSummaryImportantText%"/> 
+</element>
+</element>
+<element id="atom(updateSummaryOptionalSelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,12rp,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<PText id="atom(updateSummaryOptionalText)" class="wuapp_content_title" content="%updateSummaryOptionalText%"/> 
+</element>
+</element>
+<element id="atom(updateSummaryEmptySelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,12rp,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(updateSummaryEmptySelectionText)" sheet="wuappstyle" class="wuapp_content_text" content="resstr(1255)"/> 
+</element>
+</element>
+</element> 
+</element> 
+<element id="atom(areaBottomSection)" layoutpos="top" layout="borderlayout()">
+<element layoutpos="right" layout="flowlayout(0,0,1,2)" padding="rect(0,8rp,8rp,8rp)">
+<viewer>
+<CCPushButton id="atom(actionInstall)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1132)"/>
+</viewer>
+</element>
+</element> 
+</element> 
+</element> 
+<element id="atom(moduleAUNotConfigured)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_red"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer class="wuapp_module_img">
+<element id="atom(elementRedModuleIcon)" class="wuapp_module_img" layoutpos="top" content="icon(105,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1149)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,0,48rp,0)">
+<element class="wuapp_content_title" content="resstr(1153)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,12rp,48rp,0)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1154)"/>
+</element> 
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,7rp,18rp,18rp)">
+<element layoutpos="right" layout="borderlayout()" padding="rect(0,0,0,0)">
+<element layoutpos="top" layout="flowlayout(0,0,2,2)" padding="rect(0,0,0,0)">
+<viewer>
+<CCPushButton id="atom(actionTurnOnAU)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1150)"/>
+</viewer>
+</element>
+<element layoutpos="top" layout="flowlayout(0,0,2,2)" padding="rect(0,2rp,0,0)">
+<NavigateButton id="atom(actionAdvancedAUSettings)" layoutpos="top" layout="flowlayout()" padding="rect(0,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageSettings">
+<Button id="atom(actionAdvancedAUSettingsText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1254)"/>
+</NavigateButton>
+</element>
+</element>
+</element>
+</element>
+</element>
+<element id="atom(moduleCheckForUpdates)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+<viewer id="atom(elementRedModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(105,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1185)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,0,48rp,0)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1152)"/>
+</element> 
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,7rp,18rp,18rp)">
+<element layoutpos="right" layout="borderlayout()" padding="rect(0,0,0,0)">
+<viewer>
+<CCPushButton id="atom(actionCheckForUpdates2)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1186)"/>
+</viewer>
+</element>
+</element>
+</element>
+</element>
+<element id="atom(moduleProgress)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer class="wuapp_module_img">
+<element id="atom(elementGreyModuleIcon)" class="wuapp_module_img" layoutpos="top" content="icon(1,48rp,48rp)"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element id="atom(progressTextTop)" class="wuapp_module_instruction" content="resstr(1140)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(0,0,0,2)" padding="rect(2rp,0,48rp,0)">
+<element layoutpos="top" layout="flowlayout()" class="wuapp_button_wrapper">
+<CCProgressBar id="atom(progressBar)" width="208rp" height="14rp"/>
+</element>
+</element> 
+<element id="atom(progressAreaBtm)" layoutpos="top" layout="borderlayout()" padding="rect(2rp,12rp,48rp,0)">
+<viewer id="atom(progressIconBtm)" layoutpos="left" class="wuapp_module_img_16">
+<element class="wuapp_module_img_16" content="icon(81,16rp,16rp,library(imageres.dll))"/>
+</viewer>
+<element id="atom(progressTextBtm)" sheet="wu_cp_style" class="cp_content_text" layoutpos="top" content=" "/>
+<element id="atom(progressTextBtm2)" class="wuapp_singleline_text" layoutpos="top" content=" "/>
+</element>
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,7rp,18rp,18rp)">
+<element layoutpos="right" layout="borderlayout()" padding="rect(0,0,0,0)">
+<viewer>
+<CCPushButton id="atom(actionProgressCancel)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1141)"/>
+</viewer>
+</element>
+</element>
+</element>
+</element>
+<element id="atom(moduleInstallResults)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementGreenModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(106,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+<viewer id="atom(elementRedModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(105,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element id="atom(elementModuleHeaderText)" class="wuapp_module_instruction" content="#elementModuleHeaderText#"/>
+</element>
+<element id="atom(updateSummaryMainTable)" layoutpos="top" layout="tablelayout(0,0, 3,0,-45, 3,3,1, 3,0,-55)" contentalign="bottomleft">
+<element id="atom(updateSummaryLinkColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(0,10rp,6rp,0)">
+<element layoutpos="top" layout="flowlayout()" id="atom(installResultsSubTextArea)">
+<element id="atom(installResultsSubText)" sheet="wu_cp_style" class="cp_content_text" content=" " padding="rect(0,0,0,4rp)"/>
+</element>
+<element layoutpos="top" layout="flowlayout()" id="atom(updatesSucceeded)" padding="rect(0,0,0,4rp)">
+<element id="atom(updatesSucceededLabel)" sheet="wu_cp_style" class="cp_content_text" content=" "/>
+</element>
+<element layoutpos="top" layout="flowlayout()" id="atom(updatesFailed)" padding="rect(0,0,0,4rp)">
+<element id="atom(updatesFailedLabel)" sheet="wu_cp_style" class="cp_content_text" content=" "/>
+</element>
+<element layoutpos="top" layout="flowlayout()" id="atom(updatesCancelled)" padding="rect(0,0,0,4rp)">
+<element id="atom(updatesCancelledLabel)" sheet="wu_cp_style" class="cp_content_text" content=" "/>
+</element>
+<element layoutpos="top" layout="flowlayout()" id="atom(updatesSkipped)" padding="rect(0,0,0,4rp)">
+<element id="atom(updatesSkippedLabel)" sheet="wu_cp_style" class="cp_content_text" content=" "/>
+</element>
+<element id="atom(updateSummaryImportantLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallImportant)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallImportantText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallImportantText#"/>
+</NavigateButton>
+</element>
+<element id="atom(updateSummaryOptionalLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallOptional)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallOptionalText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallOptionalText#"/>
+</NavigateButton>
+</element>
+</element> 
+<element id="atom(updateSummaryLineColumn)" width="1rp" class="line_color_fill_area"/>
+<element id="atom(updateSummarySelectionContentsColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(12rp,10rp,0,0)">
+<element id="atom(updateSummaryImportantSelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,0,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(installResultsImportantUpdatesReady)" class="wuapp_content_title" content="#installResultsImportantUpdatesReady#"/> 
+</element>
+</element>
+<element id="atom(updateSummaryOptionalSelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,0,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(installResultsOptionalUpdatesReady)" class="wuapp_content_title" content="#installResultsOptionalUpdatesReady#"/> 
+</element>
+</element>
+<element id="atom(updateSummaryEmptySelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,0,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(updateSummaryEmptySelectionText)" sheet="wuappstyle" class="wuapp_content_text" content="resstr(1255)"/> 
+</element>
+</element>
+<element id="atom(tryAgainArea)" layoutpos="bottom" layout="borderlayout()" contentalign="bottomright" padding="rect(0,8rp,8rp,8rp)">
+<element layoutpos="right" id="atom(tryAgainButtonArea)" layout="borderlayout()">
+<viewer id="atom(tryAgainViewer)">
+<CCPushButton id="atom(actionTryAgain)" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1136)"/>
+</viewer>
+<viewer id="atom(restartNowViewer)">
+<CCPushButton id="atom(actionRestartNow)" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1188)"/>
+</viewer>
+</element> 
+</element> 
+</element> 
+</element> 
+<element id="atom(areaBottomSection)" layoutpos="top" layout="borderlayout()">
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,3rp,0,3rp)">
+<element layoutpos="bottom" layout="borderlayout()" id="atom(installErrors)" padding="rect(0,4rp,0,0)">
+<element layoutpos="top" id="atom(errorsFoundStatic)" sheet="wu_cp_style" class="cp_content_text" fontstyle="italic" content="resstr(1170)"/>
+</element>
+</element>
+<element id="atom(installErrorsArea)" layoutpos="top" layout="borderlayout()" padding="rect(0,3rp,0,3rp)">
+<element layoutpos="top" layout="rowlayout(2)" id="atom(installError1)" padding="rect(0,4rp,0,0)">
+<viewer padding="rect(0,0,12rp,0)">
+<button id="atom(installError1Code)" class="wuapp_tabstop_text" sheet="wuappstyle" content=" "/>
+</viewer>
+<element layout="borderlayout()">
+<element layoutpos="top" layout="flowlayout()">
+<element id="atom(installError1Desc)" sheet="wu_cp_style" class="cp_content_text" content=" " padding="rect(0,0,8rp,0)"/>
+<NavigateButton id="atom(actionTroubleshoot1)" layout="filllayout()">
+<Button id="atom(actionTroubleshoot1)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1173)"/>
+</NavigateButton>
+</element>
+</element>
+</element>
+<element layoutpos="top" layout="rowlayout(2)" id="atom(installError2)" padding="rect(0,4rp,0,0)">
+<viewer>
+<button id="atom(installError2Code)" class="wuapp_tabstop_text" padding="rect(0,0,12rp,0)" content=" "/>
+</viewer>
+<element layout="borderlayout()">
+<element layoutpos="top" layout="flowlayout()">
+<element id="atom(installError2Desc)" sheet="wu_cp_style" class="cp_content_text" content=" " padding="rect(0,0,8rp,0)"/>
+<NavigateButton id="atom(actionTroubleshoot2)" layout="filllayout()">
+<Button id="atom(actionTroubleshoot2)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1173)"/>
+</NavigateButton>
+</element>
+</element>
+</element>
+<element layoutpos="top" layout="rowlayout(2)" id="atom(installError3)" padding="rect(0,4rp,0,0)">
+<viewer>
+<button id="atom(installError3Code)" class="wuapp_tabstop_text" padding="rect(0,0,12rp,0)" content=" "/>
+</viewer>
+<element layout="borderlayout()">
+<element layoutpos="top" layout="flowlayout()">
+<element id="atom(installError3Desc)" sheet="wu_cp_style" class="cp_content_text" content=" " layoutpos="left" padding="rect(0,0,8rp,0)"/>
+<NavigateButton id="atom(actionTroubleshoot3)" layout="filllayout()">
+<Button id="atom(actionTroubleshoot3)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1173)"/>
+</NavigateButton>
+</element>
+</element>
+</element>
+</element> 
+<element id="atom(rebootExplanation)" layoutpos="top" layout="borderlayout()" padding="rect(48rp,3rp,48rp,3rp)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1108)"/>
+</element> 
+</element> 
+</element> 
+</element> 
+<element id="atom(moduleUpToDate)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_green"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementGreenModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(106,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element id="atom(elementModuleHeaderText)" class="wuapp_module_instruction" content="#elementModuleHeaderText#"/>
+</element>
+<element id="atom(updateSummaryMainTable)" layoutpos="top" layout="tablelayout(0,0, 3,0,-45, 3,3,1, 3,0,-55)" contentalign="bottomleft">
+<element id="atom(updateSummaryLinkColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(0,10rp,6rp,0)">
+<element id="atom(updateSummaryOptionalLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallOptional)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallOptionalText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallOptionalText#"/>
+</NavigateButton>
+</element>
+</element> 
+<element id="atom(updateSummaryLineColumn)" width="1rp" class="line_color_fill_area"/>
+<element id="atom(updateSummarySelectionContentsColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(12rp,10rp,0,0)">
+<element id="atom(updateSummaryEmptySelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,12rp,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(updateSummaryEmptySelectionText)" sheet="wuappstyle" class="wuapp_content_text" content="resstr(1255)"/> 
+</element>
+</element>
+</element>
+</element> 
+<element id="atom(areaNoUpdateSummary)" layoutpos="top" layout="borderlayout()">
+<element id="atom(updateSummaryNoUpdatesAvailableText)" sheet="wuappstyle" class="wuapp_content_text" padding="rect(0,0,12rp,0)" content="resstr(1256)"/>
+</element>
+<element id="atom(areaBottomSection)" layoutpos="top" layout="borderlayout()">
+<element layoutpos="right" layout="flowlayout(0,0,1,2)" padding="rect(0,8rp,8rp,8rp)">
+</element>
+</element> 
+</element> 
+</element> 
+<element id="atom(moduleNoUpdatesReady)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+<viewer id="atom(elementGreenModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(1,48rp,48rp)"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element id="atom(elementModuleHeaderText)" class="wuapp_module_instruction" content="#elementModuleHeaderText#"/>
+</element>
+<element id="atom(updateSummaryMainTable)" layoutpos="top" layout="tablelayout(0,0, 3,0,-45, 3,3,1, 3,0,-55)" contentalign="bottomleft">
+<element id="atom(updateSummaryLinkColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(0,10rp,6rp,0)">
+<element id="atom(updateSummaryImportantLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallImportant)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallImportantText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallImportantText#"/>
+</NavigateButton>
+</element>
+<element id="atom(updateSummaryOptionalLinkArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,6rp,6rp)">
+<NavigateButton id="atom(actionCustomInstallOptional)" layoutpos="top" layout="flowlayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallOptionalText)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="#actionCustomInstallOptionalText#"/>
+</NavigateButton>
+</element>
+</element> 
+<element id="atom(updateSummaryLineColumn)" width="1rp" class="line_color_fill_area"/>
+<element id="atom(updateSummarySelectionContentsColumn)" layout="borderlayout()" contentalign="topleft" padding="rect(12rp,10rp,0,0)">
+<element id="atom(updateSummaryEmptySelectionContentsArea)" layoutpos="top" layout="borderlayout()" contentalign="topleft" padding="rect(0,0,12rp,6rp)">
+<element layoutpos="top" layout="flowlayout(1,1,0,2)">
+<element id="atom(updateSummaryEmptySelectionText)" sheet="wuappstyle" class="wuapp_content_text" content="resstr(1255)"/> 
+</element>
+</element>
+</element>
+</element> 
+<element id="atom(areaBottomSection)" layoutpos="top" layout="borderlayout()">
+<element layoutpos="right" layout="flowlayout(0,0,1,2)" padding="rect(0,8rp,8rp,8rp)">
+</element>
+</element> 
+</element> 
+</element> 
+<element id="atom(moduleUltimateNoExtras)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,20rp,0,0)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_blue"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementBlueModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(51,48rp,48rp)"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1219)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,0,48rp,12rp)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1223)"/>
+</element> 
+</element>
+</element>
+<element id="atom(moduleUltimateExtrasAvailable)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,20rp,0,0)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_blue"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementBlueModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(51,48rp,48rp)"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1222)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,0,48rp,8rp)">
+<element id="atom(updateSummaryExtras)" class="wuapp_content_title" layoutpos="top" content="resstr(1220)"/>
+<element id="atom(updateSummaryExtrasTitles)" sheet="wu_cp_style" class="cp_content_text" layoutpos="top" contentalign="topleft | endellipsis" content=""/>
+<NavigateButton id="atom(actionCustomInstallUltimate)" layoutpos="top" layout="filllayout()" padding="rect(1rp,0,0,0)" navigationtargetroot="" navigationtargetrelative="pageCustomInstall">
+<Button id="atom(actionCustomInstallUltimate)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(76)"/>
+</NavigateButton>
+</element> 
+</element>
+</element>
+<element id="atom(moduleRebootRequired)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1187)"/>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,0,48rp,0)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1189)"/>
+</element> 
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,7rp,18rp,18rp)">
+<element layoutpos="right" layout="borderlayout()" padding="rect(0,0,0,0)">
+<viewer>
+<CCPushButton id="atom(actionRestartNowSolo)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" shortcut="auto" content="resstr(1188)"/>
+</viewer>
+</element>
+</element>
+</element>
+</element>
+<element id="atom(moduleSelfUpdateRequired)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,12rp,0,12rp)">
+<element class="moduleborder1" layoutpos="top" layout="borderlayout()">
+<element id="atom(areaModuleColorBox)" layoutpos="left" layout="borderlayout()" sheet="wuappstyle" class="security_box_gradient_yellow"/>
+<element id="atom(areaModuleIcon)" layoutpos="left" layout="borderlayout()" padding="rect(12rp,12rp,4rp,0)" contentalign="topleft">
+<element layoutpos="top" layout="borderlayout()" contentalign="topleft">
+<viewer id="atom(elementYellowModuleIcon)" class="wuapp_module_img">
+<element class="wuapp_module_img" content="icon(107,48rp,48rp,library(imageres.dll))"/>
+</viewer>
+</element>
+</element> 
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(0,12rp,12rp,4rp)">
+<element class="wuapp_module_instruction" content="resstr(1181)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(0,0,0,2)" padding="rect(2rp,0,48rp,0)">
+<element class="wuapp_content_title" content="resstr(1183)"/>
+</element>
+<element layoutpos="top" layout="flowlayout(1,0,0,2)" padding="rect(2rp,12rp,48rp,0)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1184)"/>
+</element> 
+<element layoutpos="top" layout="borderlayout()" padding="rect(0,7rp,18rp,18rp)">
+<element layoutpos="right" layout="borderlayout()" padding="rect(0,0,0,0)">
+<viewer>
+<CCPushButton id="atom(actionUpdateNow)" layoutpos="right" active="mouse | keyboard" sheet="wu_cp_style" content="resstr(1182)"/>
+</viewer>
+</element>
+</element>
+</element>
+</element>
+<element sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,16rp,0,0)">
+<element id="atom(pastActivityInfo)" layoutpos="top" layout="borderlayout()">
+<element layoutpos="top" layout="rowlayout(1)" margin="rect(0,3rp,0,0)">
+<element sheet="wu_cp_style" class="cp_content_text" layoutpos="top" contentalign="topleft" content="resstr(1144)"/>
+<PText id="atom(lastSuccessfulDetectionTime)" layoutpos="top" class="wuapp_content_text" margin="rect(10rp,0,0,0)" content="%lastSuccessfulDetectionTime%"/>
+</element>
+<element layoutpos="top" layout="rowlayout(1)" margin="rect(0,3rp,0,0)">
+<element sheet="wu_cp_style" class="cp_content_text" layoutpos="top" contentalign="topleft" content="resstr(1145)"/>
+<element layoutpos="top" layout="flowlayout()" margin="rect(10rp,0,0,0)">
+<PText id="atom(lastSuccessfulInstallTime)" layoutpos="top" class="wuapp_content_text" content="resstr(1146)"/>
+<NavigateButton id="atom(actionViewUpdateHistory2)" layoutpos="top" layout="filllayout()" navigationtargetroot="" navigationtargetrelative="pageUpdateHistory">
+<Button id="atom(actionViewUpdateHistory2)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" layoutpos="top" content="resstr(1147)"/>
+</NavigateButton>
+</element>
+</element>
+</element>
+<element id="atom(auOptedInService)" layoutpos="top" layout="rowlayout(1)" margin="rect(0,3rp,0,0)">
+<element sheet="wu_cp_style" class="cp_content_text" contentalign="topleft" content="resstr(1225)"/>
+<element layout="borderlayout()">
+<element layoutpos="top" layout="flowlayout()">
+<PText id="atom(auOptedInServiceText)" class="wuapp_content_text" content="%auOptedInServiceText%"/>
+</element>
+<element id="atom(toggleWsusStatusArea)" layoutpos="top" layout="flowlayout(0,2,0,2)" margin="rect(0,5rp,0,5rp)" padding="rect(5rp,0,0,0)">
+<viewer sheet="wuappstyle" class="wuapp_banner_img">
+<element class="wuapp_banner_img" content="icon(81,16rp,16rp,library(imageres.dll))"/>
+</viewer>
+<element id="atom(toggleWsusStatus)" sheet="wu_cp_style" class="cp_content_text" margin="rect(3rp,0,0,0)" content="resstr(1226)"/>
+</element>
+<element id="atom(toggleWsusLinkArea)" layoutpos="top" layout="flowlayout()" margin="rect(0,3rp,0,0)">
+<Button id="atom(toggleWsusLink)" margin="rect(0,3rp,0,0)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1227)"/>
+</element>
+</element>
+</element>
+</element> 
+<element id="atom(moduleBluePlate)" sheet="wuappstyle" layoutpos="top" layout="borderlayout()" margin="rect(0,16rp,0,0)">
+<element class="wuapp_blue_plate" layoutpos="top" layout="borderlayout()">
+<element layoutpos="top" layout="borderlayout()" class="wuapp_blue_plate_interior" padding="rect(6rp,3rp,6rp,3rp)">
+<element id="atom(bluePlateMUOptInArea)" layoutpos="top" class="wuapp_blue_plate_section" layout="flowlayout(1,0,0,2)" padding="rect(0,3rp,0,3rp)">
+<element sheet="wu_cp_style" class="cp_content_text" content="resstr(1276)"/>
+<Button id="atom(actionMUOptIn)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" content="resstr(1277)"/>
+</element>
+<element id="atom(bluePlateNewFeaturesArea)" layoutpos="top" class="wuapp_blue_plate_section" layout="flowlayout(1,0,0,2)" padding="rect(0,3rp,0,3rp)">
+<element id="atom(bluePlateFeaturedOptionsArea)" sheet="wu_cp_style" class="cp_content_text" content=""/>
+<Button id="atom(actionChooseFeaturedOptions)" sheet="wu_cp_style" class="cp_content_link" active="mouse | keyboard" padding="rect(3rp,0,0,0)" content="resstr(1275)"/>
+</element>
+</element>
+</element> 
+</element> 
+</element>
+</element>
+</element>
+</scrollviewer>
+<element class="cp_nav_pane" id="atom(VistaNavigationPane)" layout="filllayout()" layoutpos="left">
+<viewer>
+<element id="atom(NavPanelWatermark)" sheet="WUCommonNavPanelStyle"/>
+</viewer>
+<element class="cp_nav_list" layout="borderlayout()">
+<element class="cp_nav_task_box" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_img" layoutpos="left" content="resbmp(10,2,255,16rp,16rp,0,0)"/>
+<Button id="atom(actionCheckForUpdates)" class="cp_nav_link" layoutpos="left" active="mouse | keyboard" content="resstr(350)"/>
+</element>
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<Button id="atom(actionViewSettings)" class="cp_nav_link" sheet="wu_cp_style" active="mouse | keyboard" content="resstr(351)"/>
+</element>
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<Button id="atom(actionViewUpdateHistory)" class="cp_nav_link" sheet="wu_cp_style" active="mouse | keyboard" content="resstr(352)"/>
+</element>
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<Button id="atom(actionViewHiddenUpdates)" class="cp_nav_link" sheet="wu_cp_style" active="mouse | keyboard" content="resstr(353)"/>
+</element>
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_img" layoutpos="left" content="icon(99,16rp,16rp,library(imageres.dll))"/>
+<Button id="atom(actionHelpUpdatesFaq)" class="cp_nav_link" layoutpos="left" active="mouse | keyboard" content="resstr(354)"/>
+</element>
+<element id="atom(windowsUltimateExtrasLink)" class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_img" layoutpos="left" content="icon(51, sysmetric(49), sysmetric(50))"/>
+<NavigateButton layoutpos="left" layout="flowlayout()" navigationtargetroot="shell:::{4D1209BD-36E2-4e2f-840D-6C7FB879DD9E}">
+<Button id="atom(actionLearnAboutUltimateExtras)" class="cp_nav_link" active="mouse | keyboard" content="resstr(357)"/>
+</NavigateButton>
+</element>
+</element>
+<element class="cp_nav_link_box" layoutpos="bottom" layout="borderlayout()">
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<element class="cp_nav_label" layoutpos="left" content="resstr(1128)"/>
+</element>
+<element id="atom(securityCenterLinkArea)" class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<Button id="atom(actionLaunchSecurityCenter)" class="cp_nav_link" layoutpos="left" active="mouse | keyboard" content="resstr(355)"/>
+</element>
+<element class="cp_nav_row" layout="borderlayout()" layoutpos="top">
+<element class="cp_nav_h_spacer" layoutpos="left"/>
+<Button id="atom(actionViewInstalledUpdates)" class="cp_nav_link" layoutpos="left" active="mouse | keyboard" content="resstr(356)"/>
+</element>
+</element>
+</element>
+</element>
+</element>
+</WUAppPage>
+</element>
+</duixml>

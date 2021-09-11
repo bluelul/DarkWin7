@@ -1,0 +1,23 @@
+Theme Resource Changer Instructions
+
+Theme Resource changer eliminates having to edit dll or exe files to replace the images in your explorer.exe, explorerframe.dll and your shell32.dll.
+ 
+  1. To use the Theme resource changer just run the Theme Resource Changer.exe x86 or x64 depending on what operating system you are using.
+ 
+  2. After installation it will automatically restart explorer and you are set you only have to apply this just the one time and it will work for any theme that you setup to use it with.
+ 
+  3. To set your themes to use the Theme Resource Changer all that is needed is to make 3 folders inside your theme folder, with these names
+ 
+  explorer.exe
+  explorerframe.dll
+  Shell32.dll
+  
+These folders go inside your theme folder you have in windows\resources\themes\your theme name here
+      
+      
+  4. Inside each folder you add the picture resources you would like to use for each numbered the same as they are in the explorer.exe, explorerframe.dll and Shell32.dll. These resources must be in png format not bitmap. So example explorer.exe for the start orb and user picture frame, the numbers for these in the explorer.exe are 6801, 6805, 6809, 7013. Add those picture resources to the explorer.exe folder and place it inside your theme folder.
+ 
+  5. Then just select your theme in the personalization menu and now your start orb will be changed, your explorerframe buttons and other images in the explorer frame, along with the navigation panel in system properties will now all be changed to the images you have placed in those 3 folders in your theme folder. This applies to any theme all you have to do is apply the theme normally and reboot or restart explorer and your images will be automatically replaced. No more editing dll's to replace your images. This will even work for the icons in the shell32.dll.
+ 
+ 
+  Enjoy the theme resource changer :)
